@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -156,6 +156,14 @@ body::after{
 .btn-solid:hover{background:#7a9692;}
 .btn-outline{background:transparent;color:var(--ink);border:1px solid var(--ink);}
 .btn-outline:hover{border-color:var(--red);color:var(--red);}
+.privacy-note{
+  display:inline-flex;align-items:center;gap:8px;
+  margin-top:26px;padding:8px 18px;
+  border:1px solid rgba(62,60,58,.20);border-radius:2px;
+  color:var(--ink-soft);font-size:.8rem;letter-spacing:.06em;
+  background:rgba(255,255,255,.55);
+}
+.privacy-note svg{flex:none;opacity:.7;}
 .hero-seal{
   justify-self:center;text-align:center;position:relative;
 }
@@ -741,6 +749,10 @@ footer .name{font-family:"Ma Shan Zheng",cursive;font-size:1.2rem;color:var(--re
       <div class="hero-cta">
         <a href="#works" class="btn btn-solid">查看作品集</a>
         <a href="#resume" class="btn btn-outline">了解更多</a>
+      </div>
+      <div class="privacy-note">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="1.5"/><path d="M8 11V7a4 4 0 1 1 8 0v4"/></svg>
+        网页内容仅作求职展示，请勿外传
       </div>
     </div>
     <div class="hero-seal">
